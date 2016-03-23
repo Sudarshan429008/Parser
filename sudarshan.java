@@ -8,10 +8,7 @@ public class sudarshan
 	{
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(sudarshan.class.getResourceAsStream("input.data"));
-<<<<<<< HEAD
-=======
-      
->>>>>>> b6cd584cfdb5ebd981f5819d11870e0ac314bf41
+
 		
 	    while(input.hasNextLine())
 		{
