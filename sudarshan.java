@@ -8,27 +8,23 @@ public class sudarshan
 	{
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(sudarshan.class.getResourceAsStream("input.data"));
-      //String fileContents = " ";
 		
 	    while(input.hasNextLine())
 		{
 		String line = input.nextLine();
-		//String s = input.nextLine();
-		
-		if(line.contains("<"))
-			
+	
+		if(line.contains("<"))	
 		{
-			
 				line = line.replaceAll("<", "");
 				line = line.replaceAll(">", "->");
 				String[] run = line.split("/");
-			 
 				line= run[0];
 		}
 		
-		
-		System.out.println(line);
+				System.out.println(line);
 		}
-	}}
+			
+			}		
+				}
 
 	 
