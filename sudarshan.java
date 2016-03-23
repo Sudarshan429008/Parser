@@ -8,7 +8,7 @@ public class sudarshan
 	{
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(sudarshan.class.getResourceAsStream("input.data"));
-      //String fileContents = " ";
+      
 		
 	    while(input.hasNextLine())
 		{
